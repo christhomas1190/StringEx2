@@ -13,14 +13,16 @@ public class Exercise1_StringLength {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("Please enter your name: ");
+        System.out.print("Please enter your name: Christian");
         String name = scanner.nextLine();
-        
+        int length = name.length();
+        system.out.printIn("Length = " + length)
         // TODO: Print the length of the name using the length() method
-        
+
         scanner.close();
     }
 }
+
 
 // Expected output (if input is "Maria"):
 // Your name has 5 characters.
